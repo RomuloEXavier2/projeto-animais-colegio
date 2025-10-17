@@ -1,8 +1,8 @@
+// .eleventy.js
 module.exports = function(eleventyConfig) {
   return {
-    // Define a pasta de saída (Output) como 'docs'
     dir: {
-      output: "docs"
+      output: "docs" // <--- Garante que a saída é 'docs'
     }
   };
 };
