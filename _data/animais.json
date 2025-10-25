@@ -1,436 +1,265 @@
 [
+  // ===================================
+  // ANIMAIS PRESERVADOS (12)
+  // ===================================
   {
-    "nome": "Tigre-de-bengala",
-    "slug": "tigre-de-bengala",
-    "status": "Em Risco",
-    "curiosidades": "É o felino mais pesado do mundo, podendo atingir 300 kg. Seus habitats estão diminuindo devido à expansão humana. Cada tigre possui um padrão de listras único, como uma impressão digital.",
-    "imagem": "tigre-de-bengala.jpg"
+    "nome": "Baleia-jubarte",
+    "slug": "baleia-jubarte",
+    "status": "Preservado",
+    "informacao": "Símbolo da recuperação ambiental após a caça. Pode alcançar 16 metros e usa cantos melódicos para comunicação. Suas fezes ricas em ferro fertilizam o fitoplâncton, ajudando a regular o clima global.",
+    "imagem": "baleia-jubarte.jpg"
   },
   {
-    "nome": "Panda Gigante",
-    "slug": "panda-gigante",
-    "status": "Em Risco",
-    "curiosidades": "Passa a maior parte do dia se alimentando de bambu, cerca de 14 horas por dia. O desmatamento e a fragmentação do habitat são as principais ameaças. Sua dieta é 99% baseada em bambu.",
-    "imagem": "panda-gigante.jpg"
+    "nome": "Bisão-europeu",
+    "slug": "bisao-europeu",
+    "status": "Preservado",
+    "informacao": "Maior mamífero terrestre da Europa, foi reintroduzido a partir de apenas doze indivíduos em cativeiro. Ao derrubar galhos e abrir clareiras, permite o crescimento de novas plantas e dispersa sementes.",
+    "imagem": "bisao-europeu.jpg"
   },
   {
-    "nome": "Rinoceronte-branco",
-    "slug": "rinoceronte-branco",
-    "status": "Em Risco",
-    "curiosidades": "É o maior rinoceronte do mundo, mas o subespécie do norte está criticamente ameaçada. A caça ilegal por seus chifres é a maior ameaça à sua sobrevivência. É o único rinoceronte que possui dois chifres.",
-    "imagem": "rinoceronte-branco.jpg"
+    "nome": "Búfalo-africano",
+    "slug": "bufalo-africano",
+    "status": "Preservado",
+    "informacao": "Integrante dos 'Big Five', vive em grandes manadas com lealdade coletiva impressionante. Contribui para o controle da vegetação e o ciclo de nutrientes no solo das savanas. Pode pesar até 1.000 kg.",
+    "imagem": "bufalo-africano.jpg"
   },
   {
-    "nome": "Tartaruga-verde",
-    "slug": "tartaruga-verde",
+    "nome": "Cão-doméstico",
+    "slug": "cao-domestico",
+    "status": "Preservado",
+    "informacao": "Descendente do lobo-cinzento, foi o primeiro animal a ser domesticado. Possui olfato extremamente sensível (40x mais que o humano) e é vital em resgates, terapias e segurança.",
+    "imagem": "cao-domestico.jpg"
+  },
+  {
+    "nome": "Cavalo",
+    "slug": "cavalo",
+    "status": "Preservado",
+    "informacao": "Indispensável ao desenvolvimento humano como transporte e força de tração. Podem dormir em pé graças a um sistema de 'bloqueio' nas pernas. Animal sociável e sensível.",
+    "imagem": "cavalo.jpg"
+  },
+  {
+    "nome": "Cegonha-branca",
+    "slug": "cegonha-branca",
+    "status": "Preservado",
+    "informacao": "Ave migratória símbolo de renascimento. Percorre mais de 10 mil km entre a Europa e a África. É uma aliada natural no controle de pragas agrícolas e um indicador de qualidade ambiental de ecossistemas úmidos.",
+    "imagem": "cegonha-branca.jpg"
+  },
+  {
+    "nome": "Cisne-branco",
+    "slug": "cisne-branco",
+    "status": "Preservado",
+    "informacao": "Ave aquática que forma laços monogâmicos para toda a vida. Atua como controlador da vegetação aquática. Sua postura defensiva, erguendo as asas, protege seu território e filhotes.",
+    "imagem": "cisne-branco.jpg"
+  },
+  {
+    "nome": "Cobra-real",
+    "slug": "cobra-real",
+    "status": "Preservado",
+    "informacao": "Maior serpente peçonhenta do mundo, é uma 'comedora de serpentes'. É a única serpente que constrói ninhos elaborados para os ovos. Atua como reguladora de populações de roedores e outras serpentes.",
+    "imagem": "cobra-real.jpg"
+  },
+  {
+    "nome": "Gato-doméstico",
+    "slug": "gato-domestico",
+    "status": "Preservado",
+    "informacao": "Domesticado há 9.000 anos, possui visão noturna seis vezes mais sensível que a humana. Mantém o instinto de caça e 'amassa' superfícies com as patas como reflexo instintivo de filhote.",
+    "imagem": "gato-domestico.jpg"
+  },
+  {
+    "nome": "Jacaré-de-papo-amarelo",
+    "slug": "jacare-de-papo-amarelo",
+    "status": "Preservado",
+    "informacao": "Predador de topo das áreas úmidas do Brasil. As fêmeas protegem os filhotes até que sobrevivam sozinhos. É um indicador da qualidade da água e da saúde dos ecossistemas aquáticos.",
+    "imagem": "jacare-de-papo-amarelo.jpg"
+  },
+  {
+    "nome": "Libélula",
+    "slug": "libelula",
+    "status": "Preservado",
+    "informacao": "Uma das criaturas voadoras mais antigas, é uma predadora voraz de mosquitos. Possui visão de 360° e pode pairar como um helicóptero. Indicador biológico de qualidade da água.",
+    "imagem": "libelula.jpg"
+  },
+  {
+    "nome": "Lontra-europeia",
+    "slug": "lontra-europeia",
+    "status": "Preservado",
+    "informacao": "Mamífero semiaquático, conhecido por seu comportamento lúdico. Sua pelagem é densa e impermeável. Atua como reguladora das populações aquáticas e indica ambientes de rios limpos.",
+    "imagem": "lontra-europeia.jpg"
+  },
+  
+  // ===================================
+  // ANIMAIS EM RISCO (12)
+  // ===================================
+  {
+    "nome": "Anta-brasileira",
+    "slug": "anta-brasileira",
     "status": "Em Risco",
-    "curiosidades": "Recebe o nome de 'verde' por causa da gordura verde sob sua carapaça. Migra longas distâncias entre os locais de alimentação e de nidificação. Suas populações estão ameaçadas pela poluição e pesca.",
-    "imagem": "tartaruga-verde.jpg"
+    "informacao": "O maior mamífero terrestre da América do Sul e um 'jardineiro da floresta'. É essencial na dispersão de sementes de grande porte, mantendo a regeneração das florestas. Ameaçada por desmatamento e caça.",
+    "imagem": "anta-brasileira.jpg"
+  },
+  {
+    "nome": "Arara-azul-de-Lear",
+    "slug": "arara-azul-de-lear",
+    "status": "Em Risco",
+    "informacao": "Endêmica da Caatinga e Cerrado, famosa pela plumagem azul intensa e bico forte. Sua recuperação é um exemplo de sucesso de conservação, mas ainda frágil. Ameaçada por tráfico e perda de habitat.",
+    "imagem": "arara-azul-de-lear.jpg"
+  },
+  {
+    "nome": "Axolote",
+    "slug": "axolote",
+    "status": "Em Risco",
+    "informacao": "Anfíbio que permanece em estado larval aquático, sendo um modelo impressionante na biologia da regeneração. Criticamente ameaçado por poluição e urbanização na Cidade do México.",
+    "imagem": "axolote.jpg"
+  },
+  {
+    "nome": "Elefante-africano",
+    "slug": "elefante-africano",
+    "status": "Em Risco",
+    "informacao": "O maior mamífero terrestre, 'engenheiro de ecossistema', que derruba árvores e dispersa sementes. Possui complexo comportamento social e rituais de luto. Ameaçado pela caça por marfim.",
+    "imagem": "elefante-africano.jpg"
+  },
+  {
+    "nome": "Enguia-europeia",
+    "slug": "enguia-europeia",
+    "status": "Em Risco",
+    "informacao": "Sua migração é excepcional, nascendo no Mar dos Sargaços e viajando para rios europeus. Em declínio por obstrução de rotas migratórias (barragens) e poluição.",
+    "imagem": "enguia-europeia.jpg"
   },
   {
     "nome": "Gorila-das-montanhas",
     "slug": "gorila-das-montanhas",
     "status": "Em Risco",
-    "curiosidades": "É uma das duas subespécies de gorila-do-ocidente, encontrada apenas nas florestas de Virunga. Apenas cerca de 1.000 indivíduos restam na natureza. São herbívoros e vivem em grupos familiares.",
+    "informacao": "Habita florestas de alta altitude, vivendo em grupos familiares liderados por um macho 'silverback'. Ameaçado por perda de habitat e doenças zoonóticas. Sua proteção sustenta o ecoturismo responsável.",
     "imagem": "gorila-das-montanhas.jpg"
+  },
+  {
+    "nome": "Kakapo",
+    "slug": "kakapo",
+    "status": "Em Risco",
+    "informacao": "Papagaio noturno e não voador da Nova Zelândia. Foi praticamente dizimado por predadores introduzidos. É uma das aves mais intensamente geridas por programas de conservação no mundo.",
+    "imagem": "kakapo.jpg"
+  },
+  {
+    "nome": "Leão",
+    "slug": "leao",
+    "status": "Em Risco",
+    "informacao": "Símbolo universal de força. Caça ungulados em grupos cooperativos (prides). Ameaçado por perda de habitat, retaliação humana e caça furtiva. Sua perda causa cascatas ecológicas.",
+    "imagem": "leao.jpg"
   },
   {
     "nome": "Lobo-guará",
     "slug": "lobo-guara",
     "status": "Em Risco",
-    "curiosidades": "É o maior canídeo da América do Sul e tem pernas longas e finas. Sua dieta é onívora, incluindo frutos, o que o torna um importante dispersor de sementes. Está ameaçado pela perda de habitat no Cerrado.",
+    "informacao": "Canídeo de pernas longas do Cerrado. Atua como predador e dispersor-chave de sementes, especialmente da fruta 'lobeira'. Ameaçado por atropelamentos e fragmentação de habitat.",
     "imagem": "lobo-guara.jpg"
   },
   {
     "nome": "Mico-leão-dourado",
     "slug": "mico-leao-dourado",
     "status": "Em Risco",
-    "curiosidades": "Endêmico da Mata Atlântica no Brasil, ele tem uma juba de pelos alaranjados. Esforços de conservação têm ajudado a aumentar sua população, mas ainda é vulnerável. Vive em árvores e se alimenta de frutos e insetos.",
+    "informacao": "Primata endêmico da Mata Atlântica do Rio de Janeiro. Sua conservação protege remanescentes críticos desse bioma. Ameaçado pela fragmentação florestal.",
     "imagem": "mico-leao-dourado.jpg"
-  },
-  {
-    "nome": "Arara-azul-de-lear",
-    "slug": "arara-azul-de-lear",
-    "status": "Em Risco",
-    "curiosidades": "Uma das maiores espécies de arara, endêmica da Caatinga, no Brasil. Sua população foi reduzida pela captura para o comércio ilegal de animais de estimação. Alimenta-se principalmente de nozes de palmeira licuri.",
-    "imagem": "arara-azul-de-lear.jpg"
-  },
-  {
-    "nome": "Baleia-jubarte",
-    "slug": "baleia-jubarte",
-    "status": "Preservado",
-    "curiosidades": "Famosa por suas longas migrações e canções complexas. A população se recuperou bem após a proibição da caça comercial. Elas usam grandes bolhas de ar para cercar peixes antes de se alimentar.",
-    "imagem": "baleia-jubarte.jpg"
-  },
-  {
-    "nome": "Lontra-europeia",
-    "slug": "lontra-europeia",
-    "status": "Preservado",
-    "curiosidades": "É um indicador de boa saúde dos rios e zonas úmidas, pois são sensíveis à poluição. Sua recuperação é um sucesso de conservação em muitos países da Europa. Possui membranas interdigitais para nadar.",
-    "imagem": "lontra-europeia.jpg"
-  },
-  {
-    "nome": "Jacaré-de-papo-amarelo",
-    "slug": "jacare-de-papo-amarelo",
-    "status": "Preservado",
-    "curiosidades": "Comum na América do Sul, a espécie se recuperou de caça intensa no século XX. Pode viver em uma variedade de habitats aquáticos, de rios a pântanos. Seu nome vem da cor amarelada na parte inferior do maxilar.",
-    "imagem": "jacare-de-papo-amarelo.jpg"
-  },
-  {
-    "nome": "Leão",
-    "slug": "leao",
-    "status": "Em Risco",
-    "curiosidades": "É o segundo maior felino do mundo, perdendo apenas para o tigre. As populações estão diminuindo devido à perda de habitat e conflitos com humanos. São os únicos felinos que vivem em grupos sociais chamados 'coalizões' ou 'bandos'.",
-    "imagem": "leao.jpg"
-  },
-  {
-    "nome": "Elefante-africano",
-    "slug": "elefante-africano",
-    "status": "Em Risco",
-    "curiosidades": "É o maior animal terrestre do mundo. A caça ilegal por marfim é a maior ameaça. Sua tromba tem cerca de 40.000 músculos e pode ser usada para cheirar, respirar, beber e pegar objetos.",
-    "imagem": "elefante-africano.jpg"
-  },
-  {
-    "nome": "Orangotango-de-sumatra",
-    "slug": "orangotango-de-sumatra",
-    "status": "Em Risco",
-    "curiosidades": "É um dos grandes primatas mais inteligentes, capaz de usar ferramentas. O óleo de palma e a perda de habitat são as principais razões para o seu declínio. Passa quase toda a sua vida nas árvores.",
-    "imagem": "orangotango-de-sumatra.jpg"
-  },
-  {
-    "nome": "Axolote",
-    "slug": "axolote",
-    "status": "Em Risco",
-    "curiosidades": "É uma salamandra mexicana única que permanece aquática e \"juvenil\" por toda a vida. Está criticamente ameaçado devido à poluição da água e introdução de peixes predadores. Pode regenerar partes do corpo perdidas.",
-    "imagem": "axolote.jpg"
-  },
-  {
-    "nome": "Kakapo",
-    "slug": "kakapo",
-    "status": "Em Risco",
-    "curiosidades": "É o único papagaio do mundo que não voa, é noturno e o mais pesado. Já foi considerado extinto, mas um programa de criação intensivo está ajudando na sua recuperação. É endêmico da Nova Zelândia.",
-    "imagem": "kakapo.jpg"
-  },
-  {
-    "nome": "Cobra-real",
-    "slug": "cobra-real",
-    "status": "Preservado",
-    "curiosidades": "É a maior cobra venenosa do mundo, mas raramente ataca humanos sem ser provocada. Apesar de ser venenosa, é relativamente comum em seu habitat na Ásia. Pode \"sentir\" vibrações no chão.",
-    "imagem": "cobra-real.jpg"
-  },
-  {
-    "nome": "Tamanduá-bandeira",
-    "slug": "tamandua-bandeira",
-    "status": "Em Risco",
-    "curiosidades": "Possui uma língua que pode ter até 60 cm e é usada para comer até 30 mil insetos por dia. Sua população está ameaçada por incêndios e atropelamentos. Sua cauda parece uma bandeira.",
-    "imagem": "tamandua-bandeira.jpg"
-  },
-  {
-    "nome": "Anta-brasileira",
-    "slug": "anta-brasileira",
-    "status": "Em Risco",
-    "curiosidades": "É o maior mamífero terrestre da América do Sul. É um importante dispersor de sementes e ajuda a manter a saúde da floresta. É vulnerável à caça e à destruição do habitat.",
-    "imagem": "anta-brasileira.jpg"
-  },
-  {
-    "nome": "Borboleta-monarca",
-    "slug": "borboleta-monarca",
-    "status": "Em Risco",
-    "curiosidades": "Famosa por sua incrível migração de milhares de quilômetros das Américas. Está ameaçada pelo uso de pesticidas e pela perda da planta *Asclepias*, seu único alimento larval. Suas cores vibrantes alertam predadores.",
-    "imagem": "borboleta-monarca.jpg"
-  },
-  {
-    "nome": "Urso-polar",
-    "slug": "urso-polar",
-    "status": "Em Risco",
-    "curiosidades": "É o maior predador terrestre e está adaptado para sobreviver no Ártico. A principal ameaça é o aquecimento global, que derrete o gelo marinho, sua plataforma de caça. Tem pelos transparentes, mas que refletem a luz, parecendo brancos.",
-    "imagem": "urso-polar.jpg"
-  },
-  {
-    "nome": "Pinguim-de-magalhães",
-    "slug": "pinguim-de-magalhaes",
-    "status": "Em Risco",
-    "curiosidades": "Migra anualmente em busca de comida e locais de nidificação. A poluição por óleo e as mudanças climáticas afetam suas fontes de alimento. É nomeado em homenagem ao explorador Fernão de Magalhães.",
-    "imagem": "pinguim-de-magalhaes.jpg"
   },
   {
     "nome": "Onça-pintada",
     "slug": "onca-pintada",
     "status": "Em Risco",
-    "curiosidades": "É o maior felino das Américas e um predador de topo. Está ameaçada pela perda de habitat e conflitos com fazendeiros. Ao contrário de outros gatos, gosta de nadar e caçar peixes.",
+    "informacao": "O maior felino das Américas, com mordida capaz de perfurar carapaças. Atua como espécie guarda-chuva, regulando ecossistemas neotropicais. Ameaçada por conflito com pecuaristas.",
     "imagem": "onca-pintada.jpg"
   },
   {
-    "nome": "Pica-pau-bico-de-marfim",
-    "slug": "pica-pau-bico-de-marfim",
-    "status": "Extinto",
-    "curiosidades": "O maior pica-pau da América do Norte, não é visto desde os anos 1940 e é considerado extinto. Sua extinção é atribuída à intensa extração de madeira nas florestas. Tinha um bico de cor clara, semelhante ao marfim.",
-    "imagem": "pica-pau-bico-de-marfim.jpg"
+    "nome": "Panda-gigante",
+    "slug": "panda-gigante",
+    "status": "Em Risco",
+    "informacao": "Símbolo global de conservação. Sua dieta é 99% baseada em bambu, embora seja classificado como carnívoro. Sua proteção impulsionou o crescimento de florestas de bambu na China.",
+    "imagem": "panda-gigante.jpg"
   },
+  
+  // ===================================
+  // ANIMAIS EXTINTOS (12)
+  // ===================================
   {
-    "nome": "Foca-monge-do-caribe",
-    "slug": "foca-monge-do-caribe",
-    "status": "Extinto",
-    "curiosidades": "Um mamífero marinho que foi extinto no meio do século XX. A caça excessiva por óleo e pele levou ao seu desaparecimento. Foi a única foca nativa do Golfo do México e do Mar do Caribe.",
-    "imagem": "foca-monge-do-caribe.jpg"
-  },
-  {
-    "nome": "Tilacino (Tigre da Tasmânia)",
-    "slug": "tilacino",
-    "status": "Extinto",
-    "curiosidades": "Um marsupial carnívoro com listras nas costas, declarado extinto em 1936. A caça e doenças foram as principais causas de sua extinção. Foi o único membro da sua família a sobreviver até tempos modernos.",
-    "imagem": "tilacino.jpg"
-  },
-  {
-    "nome": "Pombo-passageiro",
-    "slug": "pombo-passageiro",
-    "status": "Extinto",
-    "curiosidades": "Já foi a ave mais abundante da América do Norte, com bandos de milhões de indivíduos. A caça comercial em massa levou à extinção em poucas décadas. O último indivíduo conhecido morreu em 1914.",
-    "imagem": "pombo-passageiro.jpg"
-  },
-  {
-    "nome": "Moa",
-    "slug": "moa",
-    "status": "Extinto",
-    "curiosidades": "Grandes aves não-voadoras endêmicas da Nova Zelândia, extintas pelos Maoris após a chegada dos humanos. O maior espécime tinha cerca de 3,6 metros de altura. Não possuíam asas, apenas pequenos vestígios.",
-    "imagem": "moa.jpg"
-  },
-  {
-    "nome": "Dinossauro (T-Rex)",
-    "slug": "dinossauro-t-rex",
-    "status": "Extinto",
-    "curiosidades": "O famoso 'Rei dos Répteis Tiranos', extinto há cerca de 66 milhões de anos após o impacto de um asteroide. Era um predador bípede com dentes de 30 cm de comprimento. Tinha braços minúsculos em comparação com o corpo.",
-    "imagem": "dinossauro-t-rex.jpg"
-  },
-  {
-    "nome": "Capra pyrenaica pyrenaica (Bode-dos-pireneus)",
+    "nome": "Bode-dos-Pireneus",
     "slug": "bode-dos-pireneus",
     "status": "Extinto",
-    "curiosidades": "A última subespécie de íbex dos Pireneus morreu em 2000. Tentativas de clonagem foram realizadas, mas não tiveram sucesso. O declínio começou no século XIX devido à caça.",
+    "informacao": "Subespécie de cabra-selvagem adaptada às encostas rochosas. Foi o primeiro animal a ter um clone nascido (e falecido minutos depois) em uma tentativa de 'desextinção' em 2003. Extinto em 2000.",
     "imagem": "bode-dos-pireneus.jpg"
   },
   {
-    "nome": "Periquito-da-carolina",
-    "slug": "periquito-da-carolina",
+    "nome": "Tiranossauro-rex",
+    "slug": "t-rex",
     "status": "Extinto",
-    "curiosidades": "Único periquito nativo do leste dos EUA, declarado extinto no início do século XX. A perda de habitat e a caça por suas penas coloridas causaram o declínio. Eram muito sociáveis e voavam em grandes bandos.",
-    "imagem": "periquito-da-carolina.jpg"
+    "informacao": "Um dos maiores predadores terrestres da Era Mesozoica, com mandíbula que triturava ossos. Extinto no evento de impacto do asteroide há 66 milhões de anos.",
+    "imagem": "t-rex.jpg"
   },
   {
-    "nome": "Golfinho-do-rio-yangtze (Baiji)",
-    "slug": "golfinho-do-rio-yangtze",
-    "status": "Extinto",
-    "curiosidades": "Um golfinho de água doce, declarado funcionalmente extinto em 2006. A poluição, a pesca e o tráfego de barcos foram as causas. Era conhecido como \"Deusa do Yangtze\".",
-    "imagem": "golfinho-do-rio-yangtze.jpg"
-  },
-  {
-    "nome": "Zebra-de-quagga",
-    "slug": "zebra-de-quagga",
-    "status": "Extinto",
-    "curiosidades": "Uma subespécie de zebra com listras apenas na cabeça e pescoço. Foi extinta na década de 1880 devido à caça para obter carne e peles. Há um projeto para \"reviver\" a subespécie através de cruzamentos seletivos.",
-    "imagem": "zebra-de-quagga.jpg"
-  },
-  {
-    "nome": "Saiga",
-    "slug": "saiga",
-    "status": "Em Risco",
-    "curiosidades": "Um antílope com um nariz extremamente distinto, parecido com uma tromba. Sua população foi quase exterminada devido a uma doença viral e caça. A tromba atua como um filtro durante o verão e aquece o ar no inverno.",
-    "imagem": "saiga.jpg"
-  },
-  {
-    "nome": "Bisão-europeu",
-    "slug": "bisao-europeu",
-    "status": "Preservado",
-    "curiosidades": "O maior mamífero terrestre da Europa, caçado até a extinção na natureza, mas recuperado a partir de espécimes em cativeiro. Atualmente está classificado como Quase Ameaçado/Preservado. É um símbolo da vida selvagem europeia.",
-    "imagem": "bisao-europeu.jpg"
-  },
-  {
-    "nome": "Pato-real",
-    "slug": "pato-real",
-    "status": "Preservado",
-    "curiosidades": "É o pato selvagem mais abundante no hemisfério norte. Adaptável a vários habitats, incluindo parques urbanos. O macho tem uma cabeça verde brilhante característica.",
-    "imagem": "pato-real.jpg"
-  },
-  {
-    "nome": "Abelha-comum",
-    "slug": "abelha-comum",
-    "status": "Preservado",
-    "curiosidades": "Vital para a polinização da maioria das culturas. Embora enfrente ameaças (pesticidas, doenças), a espécie em si não está ameaçada globalmente. Conhecida pela sua organização social complexa.",
-    "imagem": "abelha-comum.jpg"
-  },
-  {
-    "nome": "Pomba-rolinha",
-    "slug": "pomba-rolinha",
-    "status": "Preservado",
-    "curiosidades": "Uma das aves mais comuns do mundo, adaptável a ambientes urbanos. Originária da Europa e Ásia, foi introduzida em muitos países. Constrói ninhos simples em saliências.",
-    "imagem": "pomba-rolinha.jpg"
-  },
-  {
-    "nome": "Gato-doméstico",
-    "slug": "gato-domestico",
-    "status": "Preservado",
-    "curiosidades": "Um dos animais de estimação mais populares do mundo, é um predador eficiente. Suas populações selvagens (ferais) são frequentemente consideradas invasoras. Passa a maior parte do tempo dormindo.",
-    "imagem": "gato-domestico.jpg"
-  },
-  {
-    "nome": "Pardal-doméstico",
-    "slug": "pardal-domestico",
-    "status": "Preservado",
-    "curiosidades": "Ave extremamente adaptável e comum em quase todos os continentes. É um dos pássaros com a maior distribuição geográfica do mundo. Constrói ninhos desorganizados em cavidades.",
-    "imagem": "pardal-domestico.jpg"
-  },
-  {
-    "nome": "Cavalo",
-    "slug": "cavalo",
-    "status": "Preservado",
-    "curiosidades": "Animal domesticado com um papel histórico crucial no transporte e trabalho. Existem poucas populações verdadeiramente selvagens (e.g., Cavalo-de-Przewalski, que está 'Em Risco'). São herbívoros.",
-    "imagem": "cavalo.jpg"
-  },
-  {
-    "nome": "Cão-doméstico",
-    "slug": "cao-domestico",
-    "status": "Preservado",
-    "curiosidades": "Descendente do lobo, é o animal de estimação mais comum. Apresenta a maior diversidade de raças de todos os mamíferos. Sua domesticação ocorreu há milhares de anos.",
-    "imagem": "cao-domestico.jpg"
-  },
-  {
-    "nome": "Rato-doméstico",
-    "slug": "rato-domestico",
-    "status": "Preservado",
-    "curiosidades": "Extremamente prolífico e adaptável, é uma praga em muitas regiões. Conseguiu coexistir com os humanos em praticamente todos os cantos do planeta. Tem um olfato muito apurado.",
-    "imagem": "rato-domestico.jpg"
-  },
-  {
-    "nome": "Libélula",
-    "slug": "libelula",
-    "status": "Preservado",
-    "curiosidades": "Um predador aéreo com olhos multifacetados que lhe dão um campo de visão de quase 360 graus. Passa a primeira parte da vida como ninfas aquáticas. Pode voar em todas as direções.",
-    "imagem": "libelula.jpg"
-  },
-  {
-    "nome": "Bicho-pau",
-    "slug": "bicho-pau",
-    "status": "Preservado",
-    "curiosidades": "Famoso por sua incrível camuflagem que o faz parecer um galho. Muitas fêmeas podem se reproduzir por partenogênese (sem machos). É um inseto herbívoro.",
-    "imagem": "bicho-pau.jpg"
-  },
-  {
-    "nome": "Cegonha-branca",
-    "slug": "cegonha-branca",
-    "status": "Preservado",
-    "curiosidades": "Famosa por aninhar em telhados e chaminés, é um símbolo de boa sorte em algumas culturas. A maioria das populações migra entre a Europa e a África. Suas pernas e bicos são longos.",
-    "imagem": "cegonha-branca.jpg"
-  },
-  {
-    "nome": "Esquilo-cinzento",
-    "slug": "esquilo-cinzento",
-    "status": "Preservado",
-    "curiosidades": "Comum em florestas e parques urbanos, é conhecido por enterrar nozes para o inverno. Pode ser considerado uma espécie invasora em alguns países europeus. Suas caudas ajudam no equilíbrio.",
-    "imagem": "esquilo-cinzento.jpg"
-  },
-  {
-    "nome": "Ganso-do-canadá",
-    "slug": "ganso-do-canada",
-    "status": "Preservado",
-    "curiosidades": "Famoso por suas formações em V durante a migração, o que economiza energia. A população se recuperou fortemente e é agora comum em muitas áreas urbanas da América do Norte. Fazem muito barulho.",
-    "imagem": "ganso-do-canada.jpg"
-  },
-  {
-    "nome": "Salmão-do-atlântico",
-    "slug": "salmao-do-atlantico",
-    "status": "Em Risco",
-    "curiosidades": "É uma espécie anádroma, ou seja, nasce em água doce, vive no oceano e volta para a água doce para se reproduzir. Está ameaçado pela sobrepesca e fazendas de peixes. Pode saltar cachoeiras.",
-    "imagem": "salmao-do-atlantico.jpg"
-  },
-  {
-    "nome": "Enguia-europeia",
-    "slug": "enguia-europeia",
-    "status": "Em Risco",
-    "curiosidades": "Inicia sua vida no Mar dos Sargaços e migra por milhares de quilômetros para águas doces e costeiras. É criticamente ameaçada por barreiras de migração e pesca ilegal. Seu corpo é alongado e escorregadio.",
-    "imagem": "enguia-europeia.jpg"
-  },
-  {
-    "nome": "Vaca-marinha-de-steller",
-    "slug": "vaca-marinha-de-steller",
-    "status": "Extinto",
-    "curiosidades": "Um grande mamífero marinho, parente do peixe-boi, descoberto em 1741 e extinto em apenas 27 anos devido à caça. Atingia até 9 metros de comprimento. Não conseguia mergulhar completamente debaixo d'água.",
-    "imagem": "vaca-marinha-de-steller.jpg"
-  },
-  {
-    "nome": "Dodó",
+    "nome": "Dodô",
     "slug": "dodo",
     "status": "Extinto",
-    "curiosidades": "Uma ave não-voadora, endêmica da ilha Maurício, extinta no século XVII. Foi fácil caçar e teve seu habitat destruído. Sua imagem é frequentemente usada como símbolo de extinção.",
+    "informacao": "Ave não voadora da Ilha Maurício, símbolo da extinção causada por humanos. Desapareceu em 1680 devido à caça e à introdução de predadores invasores.",
     "imagem": "dodo.jpg"
   },
   {
-    "nome": "Megatherium (Preguiça Gigante)",
-    "slug": "megatherium",
+    "nome": "Golfinho-do-rio-Yangtze",
+    "slug": "golfinho-yangtze",
     "status": "Extinto",
-    "curiosidades": "Uma espécie de preguiça terrestre gigante, do tamanho de um elefante. Foi extinta há cerca de 10.000 anos, provavelmente devido às mudanças climáticas e à caça humana. Andava sobre duas patas.",
-    "imagem": "megatherium.jpg"
+    "informacao": "Conhecido como baiji, foi o primeiro cetáceo declarado funcionalmente extinto por ação humana em 2006, devido à poluição e colisões de embarcações.",
+    "imagem": "golfinho-yangtze.jpg"
   },
   {
     "nome": "Mamute-lanoso",
     "slug": "mamute-lanoso",
     "status": "Extinto",
-    "curiosidades": "O parente extinto do elefante, famoso por viver na Era do Gelo. Extinto há cerca de 4.000 anos, com os últimos indivíduos na Ilha Wrangel. Tinha enormes presas curvas e um casaco de pelo espesso.",
+    "informacao": "Colosso das estepes geladas, com presas curvas de 4 metros. Sobreviveu em ilhas árticas até 4.000 anos atrás. Extinto pelo aquecimento global pós-Era do Gelo e caça humana.",
     "imagem": "mamute-lanoso.jpg"
   },
   {
-    "nome": "Auroque",
-    "slug": "auroque",
+    "nome": "Megatério",
+    "slug": "megaterio",
     "status": "Extinto",
-    "curiosidades": "O ancestral selvagem do gado doméstico moderno, extinto em 1627 na Polônia. Eram animais grandes e agressivos. Há projetos para 'recriar' o auroque através da criação seletiva.",
-    "imagem": "auroque.jpg"
+    "informacao": "Gigantesca preguiça terrestre da América do Sul, com 6 metros de comprimento. Extinto há cerca de 10 mil anos devido às mudanças climáticas e à caça por populações primitivas.",
+    "imagem": "megaterio.jpg"
   },
   {
-    "nome": "Tubarão-branco",
-    "slug": "tubarao-branco",
-    "status": "Em Risco",
-    "curiosidades": "O maior peixe predador do mundo, conhecido por sua força. Está ameaçado pela pesca acidental e caça. Pode sentir uma única gota de sangue na água a até 5 km de distância.",
-    "imagem": "tubarao-branco.jpg"
+    "nome": "Moa",
+    "slug": "moa",
+    "status": "Extinto",
+    "informacao": "Aves gigantes não voadoras da Nova Zelândia, algumas com 3,6 metros. Extintas em menos de 150 anos após a chegada dos Maoris (caça), deixando um grande vazio ecológico.",
+    "imagem": "moa.jpg"
   },
   {
-    "nome": "Búfalo-africano",
-    "slug": "bufalo-africano",
-    "status": "Preservado",
-    "curiosidades": "Um dos 'Cinco Grandes' da África, é um animal robusto e social. Embora localmente ameaçado, a população geral é estável (Preservado). Nunca foi verdadeiramente domesticado.",
-    "imagem": "bufalo-africano.jpg"
+    "nome": "Periquito-da-Carolina",
+    "slug": "periquito-da-carolina",
+    "status": "Extinto",
+    "informacao": "Único papagaio nativo do leste dos EUA. Era essencial na regeneração de florestas (dispersão de sementes). Extinto em 1918 por destruição de habitat e abate por agricultores.",
+    "imagem": "periquito-da-carolina.jpg"
   },
   {
-    "nome": "Raposa-vermelha",
-    "slug": "raposa-vermelha",
-    "status": "Preservado",
-    "curiosidades": "O carnívoro mais amplamente distribuído no mundo, adaptável a vários ambientes. É conhecida por sua inteligência e astúcia. Usa a cauda para se aquecer e como auxílio no equilíbrio.",
-    "imagem": "raposa-vermelha.jpg"
+    "nome": "Pica-pau-bico-de-marfim",
+    "slug": "pica-pau-bico-de-marfim",
+    "status": "Extinto",
+    "informacao": "Uma das maiores espécies de pica-paus, extinto em 2021 (após anos sem registro). Seu som característico ('kent') era ouvido a mais de 1 km de distância. Vítima da devastação de florestas úmidas.",
+    "imagem": "pica-pau-bico-de-marfim.jpg"
   },
   {
-    "nome": "Cisne-branco",
-    "slug": "cisne-branco",
-    "status": "Preservado",
-    "curiosidades": "Uma ave aquática grande e graciosa, comum em lagos e rios. A maioria das populações está estável. Quando se acasalam, formam casais monogâmicos por toda a vida.",
-    "imagem": "cisne-branco.jpg"
+    "nome": "Tilacino",
+    "slug": "tilacino",
+    "status": "Extinto",
+    "informacao": "Também conhecido como tigre-da-tasmânia, era um marsupial carnívoro que carregava filhotes em uma bolsa. Extinto em 1936 devido à caça incentivada por fazendeiros.",
+    "imagem": "tilacino.jpg"
   },
   {
-    "nome": "Lebre-europeia",
-    "slug": "lebre-europeia",
-    "status": "Preservado",
-    "curiosidades": "Mais rápida que o coelho, vive em áreas abertas e tem longas orelhas e pernas. É um importante animal de caça em muitas culturas. Suas crias nascem com pelos e olhos abertos.",
-    "imagem": "lebre-europeia.jpg"
+    "nome": "Vaca-marinha-de-Steller",
+    "slug": "vaca-marinha-de-steller",
+    "status": "Extinto",
+    "informacao": "Gigante herbívoro marinho, que media 8 metros. Foi descoberto e caçado até a extinção em menos de 30 anos (1741-1768). Sua pele era espessa e resistente ao frio.",
+    "imagem": "vaca-marinha-de-steller.jpg"
   },
   {
-    "nome": "Gato-maracajá",
-    "slug": "gato-maracaja",
-    "status": "Em Risco",
-    "curiosidades": "Pequeno felino sul-americano, noturno e arbóreo. É capaz de girar os tornozelos em 180 graus para descer das árvores de cabeça para baixo. A perda de habitat é sua principal ameaça.",
-    "imagem": "gato-maracaja.jpg"
-  },
-  {
-    "nome": "Hiena-malhada",
-    "slug": "hiena-malhada",
-    "status": "Preservado",
-    "curiosidades": "O predador mais abundante na África, conhecido por suas vocalizações semelhantes a risadas. São caçadores eficientes e não apenas necrófagos. Suas fêmeas dominam os machos.",
-    "imagem": "hiena-malhada.jpg"
+    "nome": "Quagga",
+    "slug": "quagga",
+    "status": "Extinto",
+    "informacao": "Subespécie de zebra nativa da África do Sul, com listras apenas na parte da frente do corpo. Foi o primeiro animal extinto a ter seu DNA estudado para possível ressurreição. Extinto em 1883 pela caça.",
+    "imagem": "quagga.jpg"
   }
 ]

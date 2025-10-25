@@ -1,20 +1,13 @@
 module.exports = function(eleventyConfig) {
     
-    // 1. CHAMA a função para copiar a pasta 'css' (PassThrough Copy)
-    // Isso garante que o CSS seja copiado para a pasta de saída.
+    // Configura a cópia dos assets (CSS e Imagens)
     eleventyConfig.addPassthroughCopy("css"); 
-    
-    // 2. CHAMA a função para copiar a pasta 'img'
     eleventyConfig.addPassthroughCopy("img"); 
 
     return {
-        // 3. RETORNA a configuração de diretórios (dir)
+        // Usa a pasta de saída padrão (_site)
         dir: {
-            // Define a pasta de saída como "_site" (o padrão)
             output: "_site" 
         }
     };
-<<<<<<< HEAD
-};
-=======
 };
