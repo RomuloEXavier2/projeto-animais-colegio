@@ -1,0 +1,227 @@
+/* =================================== */
+/* 0. CONFIGURAÇÕES BASE E CORES NEON */
+/* =================================== */
+
+:root {
+    --color-bg-dark: #0A192F;          /* Fundo Escuro (Azul Marinho Quase Preto) */
+    --color-neon-blue: #00FFFF;        /* Ciano/Azul Elétrico (Destaque Principal) */
+    --color-neon-green: #38FFCC;       /* Verde Aqua Neon (Cor Secundária) */
+    --color-text-light: #CCD6F6;       /* Texto Principal Claro */
+    --color-text-sub: #8892B0;         /* Subtítulo e Descrição Secundária */
+    --color-accent: #64FFDA;           /* Cor de destaque principal (links/bordas) */
+    --font-sans: 'Arial', sans-serif;
+    --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+}
+
+/* Reseta margens e padding e usa box-sizing moderno */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-sans);
+    background-color: var(--color-bg-dark);
+    color: var(--color-text-light);
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* =================================== */
+/* 1. LAYOUT PRINCIPAL E CABEÇALHO */
+/* =================================== */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: var(--color-neon-blue);
+    /* Efeito de brilho principal */
+    text-shadow: 0 0 10px var(--color-neon-blue), 0 0 20px rgba(0, 255, 255, 0.4);
+    font-family: var(--font-mono);
+}
+
+.grid-container {
+    display: grid;
+    /* Adaptação: 3 colunas em telas grandes, 2 em médias e 1 em pequenas */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+/* =================================== */
+/* 2. CARD DO ANIMAL (EFEITO TECNOLÓGICO) */
+/* =================================== */
+
+.animal-card {
+    display: block; /* Garante que o link ocupe todo o card */
+    background-color: rgba(10, 25, 47, 0.6); /* Fundo semi-transparente */
+    border: 1px solid var(--color-neon-blue);
+    padding: 20px;
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    text-decoration: none; /* Remove sublinhado do link */
+    color: var(--color-text-light);
+    position: relative;
+    overflow: hidden;
+    
+    /* Brilho neon sutil */
+    box-shadow: 0 0 5px rgba(0, 255, 255, 0.2); 
+}
+
+.animal-card:hover {
+    transform: translateY(-5px);
+    /* Brilho neon intenso ao passar o mouse */
+    box-shadow: 0 0 15px var(--color-neon-blue), 0 0 30px rgba(0, 255, 255, 0.6);
+}
+
+.animal-card h2 {
+    color: var(--color-neon-green);
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 5px rgba(56, 255, 204, 0.5);
+}
+
+/* =================================== */
+/* 3. IMAGENS E STATUS (CORES VIBRANTES) */
+/* =================================== */
+
+.animal-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 3px;
+    border: 1px solid var(--color-accent); 
+}
+
+.status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    font-family: var(--font-mono);
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Cores vibrantes por Status - Usando atributos data-status */
+.status[data-status="Preservado"] {
+    background-color: rgba(56, 255, 204, 0.2);
+    color: var(--color-neon-green);
+    border: 1px solid var(--color-neon-green);
+}
+
+.status[data-status="Em Risco"] {
+    background-color: rgba(255, 165, 0, 0.2);
+    color: orange;
+    border: 1px solid orange;
+}
+
+.status[data-status="Extinto"] {
+    background-color: rgba(255, 0, 0, 0.2);
+    color: #FF0077; /* Rosa Neon */
+    border: 1px solid #FF0077;
+}
+
+/* =================================== */
+/* 4. ESTILOS DAS PÁGINAS INDIVIDUAIS (DETAIL) */
+/* =================================== */
+
+.animal-detail {
+    background-color: rgba(10, 25, 47, 0.8);
+    border: 2px solid var(--color-neon-blue);
+    border-radius: 8px;
+    padding: 40px;
+    margin-top: 40px;
+    /* Efeito de destaque para a página de detalhes */
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.4); 
+}
+
+.animal-detail h1 {
+    color: var(--color-neon-green);
+    font-size: 3rem;
+    margin-bottom: 15px;
+    text-shadow: 0 0 10px var(--color-neon-green);
+}
+
+.animal-detail p.status-detail {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: var(--color-accent);
+}
+
+.detail-content {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+/* Responsividade: Imagem e texto empilhados em telas menores */
+@media (max-width: 768px) {
+    .detail-content {
+        flex-direction: column;
+    }
+    .detail-image {
+        order: -1; /* Coloca a imagem no topo */
+    }
+}
+
+.detail-info {
+    flex: 2;
+}
+
+.detail-info h2 {
+    color: var(--color-neon-blue);
+    border-bottom: 2px solid var(--color-accent);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+.detail-info p {
+    font-size: 1.1rem;
+    color: var(--color-text-light);
+    text-align: justify;
+}
+
+.detail-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.detail-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 3px solid var(--color-accent);
+    /* Brilho na imagem */
+    box-shadow: 0 0 15px rgba(100, 255, 218, 0.8);
+}
+
+.back-link {
+    display: block;
+    margin-top: 30px;
+    color: var(--color-neon-blue);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+    font-family: var(--font-mono);
+}
+
+.back-link:hover {
+    color: var(--color-accent);
+    text-decoration: underline;
+}
