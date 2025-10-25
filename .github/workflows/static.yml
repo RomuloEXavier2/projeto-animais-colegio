@@ -1,0 +1,43 @@
+jobs:
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # -----------------------------------------------
+      # ETAPAS DE CONSTRUÇÃO (BUILD) DO ELEVENTY
+      # -----------------------------------------------
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Versão recomendada para compatibilidade
+
+      - name: Install Dependencies
+        # Instala as dependências do package.json (incluindo o Eleventy)
+        run: npm ci
+
+      - name: Build Eleventy Site
+        # Roda o comando para gerar o site (pasta _site ou docs)
+        run: npx @11ty/eleventy
+
+      # -----------------------------------------------
+      # ETAPAS DE IMPLANTAÇÃO (DEPLOY)
+      # -----------------------------------------------
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # ATENÇÃO: Verifique se o Eleventy gera o site em '_site' ou 'docs'.
+          # Se você não alterou o .eleventy.js, o padrão é '_site'.
+          path: '_site' 
+          
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
