@@ -1,12 +1,9 @@
 [
-  // ===================================
-  // ANIMAIS PRESERVADOS (12)
-  // ===================================
   {
     "nome": "Baleia-jubarte",
     "slug": "baleia-jubarte",
     "status": "Preservado",
-    "informacao": "Símbolo da recuperação ambiental após a caça. Pode alcançar 16 metros e usa cantos melódicos para comunicação. Suas fezes ricas em ferro fertilizam o fitoplâncton, ajudando a regular o clima global.",
+    "informacao": "Símbolo da recuperação ambiental após a caça. Pode alcançar 16 metros e usa cantos melódicos para comunicação. Suas fezes ricas em ferro fertilizam o fitoplâncton, ajudando a regular o clima global. Graças à proibição da caça comercial, suas populações vêm se recuperando lentamente.",
     "imagem": "baleia-jubarte.jpg"
   },
   {
@@ -86,10 +83,6 @@
     "informacao": "Mamífero semiaquático, conhecido por seu comportamento lúdico. Sua pelagem é densa e impermeável. Atua como reguladora das populações aquáticas e indica ambientes de rios limpos.",
     "imagem": "lontra-europeia.jpg"
   },
-  
-  // ===================================
-  // ANIMAIS EM RISCO (12)
-  // ===================================
   {
     "nome": "Anta-brasileira",
     "slug": "anta-brasileira",
@@ -174,10 +167,6 @@
     "informacao": "Símbolo global de conservação. Sua dieta é 99% baseada em bambu, embora seja classificado como carnívoro. Sua proteção impulsionou o crescimento de florestas de bambu na China.",
     "imagem": "panda-gigante.jpg"
   },
-  
-  // ===================================
-  // ANIMAIS EXTINTOS (12)
-  // ===================================
   {
     "nome": "Bode-dos-Pireneus",
     "slug": "bode-dos-pireneus",
